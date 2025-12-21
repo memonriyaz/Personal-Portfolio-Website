@@ -8,6 +8,8 @@ const showMenu = (toggleId, navId) =>{
         })
     }
 }
+
+
 showMenu('nav-toggle','nav-menu')
 
 const navLink = document.querySelectorAll('.nav__link')
@@ -35,6 +37,9 @@ function scrollActive(){
         }
     })
 }
+
+
+
 window.addEventListener('scroll', scrollActive)
 
 const sr = ScrollReveal({
