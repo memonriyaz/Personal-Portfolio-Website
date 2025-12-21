@@ -159,6 +159,11 @@ img {
   background-color: var(--first-color);
 }
 
+body {
+  overflow-x: hidden;
+  margin-right: 40px;
+}
+
 .nav__logo {
   color: var(--second-color);
 }
@@ -327,6 +332,7 @@ img {
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
+  width: 100vw;
 }
 
 .footer__title {
